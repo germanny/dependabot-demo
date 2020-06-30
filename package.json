@@ -1,7 +1,7 @@
 {
-  "name": "Dependabot Demo",
+  "name": "dependabot-demo",
   "version": "1.0.0",
-  "description": "Dependabot Demo",
+  "description": "dependabot-demo",
   "site": "https://github.com/germanny/dependabot-demo",
   "repository": {
     "type": "git",
