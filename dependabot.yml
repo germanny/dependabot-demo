@@ -7,9 +7,27 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
-
+    commit-message:
+      prefix: "Dependabot - NPM: "
+    labels:
+      - "needs-review"
+    pull-request-branch-name:
+      separator: "-"
+    rebase-strategy: "disabled"
+  
   # Enable version updates for Ruby/Bundler
   - package-ecosystem: "bundler"
     directory: "/"
     schedule:
       interval: "weekly"
+      day: "wednesday"
+      time: "15:00" # 10am Central Time
+    commit-message:
+      prefix: "Dependabot - Ruby/Bundler: "
+    labels:
+      - "needs-review"
+    pull-request-branch-name:
+      separator: "-"
+    rebase-strategy: "disabled"
+    # Increase version requirements only when required
+    versioning-strategy: increase-if-necessary
