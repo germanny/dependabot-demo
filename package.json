@@ -47,7 +47,7 @@
     "gulp-uglify": "^3.0.2",
     "imagemin-jpeg-recompress": "^6.0.0",
     "instantsearch.js": "^2.10.5",
-    "jquery": "1.12.4",
+    "jquery": "3.5.0",
     "lazysizes": "4.1.8",
     "mini-css-extract-plugin": "^0.9.0",
     "node-sass": "^4.14.1",
