@@ -1,5 +1,8 @@
 source "https://rubygems.org"
 
+# Insecure gem
+gem "bootstrap-sass", "= 3.2.0.3"
+
 # Jekyll
 gem "jekyll", ">= 3.8.4"
 
